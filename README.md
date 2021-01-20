@@ -3,6 +3,8 @@
 
 Utility class for controlling the presentation of sheets.
 
+For an example of the class in use, see the project `Example/`.  
+
 
 ## Injection
 
