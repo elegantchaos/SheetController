@@ -68,13 +68,13 @@ public class SheetController: ObservableObject {
     public typealias ViewMaker = () -> AnyView
     public typealias EnvironmentSetter = (AnyView) -> AnyView
 
-    @Published fileprivate var isPresented: Bool
+    @Published internal var isPresented: Bool
     fileprivate var viewMaker: ViewMaker?
     
     /// Block which applies an environment to the sheet.
     public var environmentSetter: EnvironmentSetter?
     
-    fileprivate var presented: some View {
+    internal var presented: some View {
         guard let view = viewMaker?() else {
             return AnyView(EmptyView())
         }
@@ -98,30 +98,5 @@ public class SheetController: ObservableObject {
     public func dismiss() {
         isPresented = false
         viewMaker = nil
-    }
-}
-
-public struct SheetControllerHost<Content>: View where Content: View {
-    @EnvironmentObject var sheetController: SheetController
-
-    let content: () -> Content
-
-    init(_ content: @escaping () -> Content) {
-        self.content = content
-    }
-    
-    public var body: some View {
-        content()
-            .sheet(isPresented: $sheetController.isPresented, onDismiss: {
-                sheetController.dismiss()
-            }) { sheetController.presented }
-    }
-}
-
-public extension View {
-    func usingSheetController() -> some View {
-        SheetControllerHost {
-            self
-        }
     }
 }

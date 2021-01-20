@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B80466225B855EF00698F28 /* SheetController in Frameworks */ = {isa = PBXBuildFile; productRef = 8B80466125B855EF00698F28 /* SheetController */; };
+		8B80466425B855F300698F28 /* SheetController in Frameworks */ = {isa = PBXBuildFile; productRef = 8B80466325B855F300698F28 /* SheetController */; };
 		8BF14C1F25B852E900DDAFC7 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14C0C25B852E800DDAFC7 /* Application.swift */; };
 		8BF14C2025B852E900DDAFC7 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14C0C25B852E800DDAFC7 /* Application.swift */; };
 		8BF14C2125B852E900DDAFC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14C0D25B852E800DDAFC7 /* ContentView.swift */; };
 		8BF14C2225B852E900DDAFC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14C0D25B852E800DDAFC7 /* ContentView.swift */; };
 		8BF14C2325B852E900DDAFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF14C0E25B852E900DDAFC7 /* Assets.xcassets */; };
 		8BF14C2425B852E900DDAFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BF14C0E25B852E900DDAFC7 /* Assets.xcassets */; };
-		8BF14C3725B853D700DDAFC7 /* SheetController in Frameworks */ = {isa = PBXBuildFile; productRef = 8BF14C3625B853D700DDAFC7 /* SheetController */; };
-		8BF14C3925B853DB00DDAFC7 /* SheetController in Frameworks */ = {isa = PBXBuildFile; productRef = 8BF14C3825B853DB00DDAFC7 /* SheetController */; };
-		8BF14C3F25B854F900DDAFC7 /* ExampleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14C3E25B854F900DDAFC7 /* ExampleSheet.swift */; };
-		8BF14C4025B854FA00DDAFC7 /* ExampleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14C3E25B854F900DDAFC7 /* ExampleSheet.swift */; };
+		8BF14C3F25B854F900DDAFC7 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14C3E25B854F900DDAFC7 /* SheetView.swift */; };
+		8BF14C4025B854FA00DDAFC7 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF14C3E25B854F900DDAFC7 /* SheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B80465E25B855D200698F28 /* SheetController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SheetController; path = ..; sourceTree = "<group>"; };
 		8BF14C0C25B852E800DDAFC7 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 		8BF14C0D25B852E800DDAFC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8BF14C0E25B852E900DDAFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8BF14C1325B852E900DDAFC7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF14C1325B852E900DDAFC7 /* SheetController Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SheetController Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF14C1625B852E900DDAFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8BF14C1B25B852E900DDAFC7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF14C1B25B852E900DDAFC7 /* SheetController Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SheetController Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF14C1D25B852E900DDAFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BF14C1E25B852E900DDAFC7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		8BF14C3225B8537E00DDAFC7 /* SheetController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SheetController; sourceTree = "<group>"; };
-		8BF14C3E25B854F900DDAFC7 /* ExampleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleSheet.swift; sourceTree = "<group>"; };
+		8BF14C3E25B854F900DDAFC7 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF14C3725B853D700DDAFC7 /* SheetController in Frameworks */,
+				8B80466225B855EF00698F28 /* SheetController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF14C3925B853DB00DDAFC7 /* SheetController in Frameworks */,
+				8B80466425B855F300698F28 /* SheetController in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 				8BF14C0B25B852E800DDAFC7 /* Shared */,
 				8BF14C1525B852E900DDAFC7 /* iOS */,
 				8BF14C1C25B852E900DDAFC7 /* macOS */,
-				8BF14C3225B8537E00DDAFC7 /* SheetController */,
+				8B80465E25B855D200698F28 /* SheetController */,
 				8BF14C1425B852E900DDAFC7 /* Products */,
 				8BF14C3525B853D700DDAFC7 /* Frameworks */,
 			);
@@ -69,7 +69,7 @@
 			children = (
 				8BF14C0C25B852E800DDAFC7 /* Application.swift */,
 				8BF14C0D25B852E800DDAFC7 /* ContentView.swift */,
-				8BF14C3E25B854F900DDAFC7 /* ExampleSheet.swift */,
+				8BF14C3E25B854F900DDAFC7 /* SheetView.swift */,
 				8BF14C0E25B852E900DDAFC7 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,8 +78,8 @@
 		8BF14C1425B852E900DDAFC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BF14C1325B852E900DDAFC7 /* Example.app */,
-				8BF14C1B25B852E900DDAFC7 /* Example.app */,
+				8BF14C1325B852E900DDAFC7 /* SheetController Example.app */,
+				8BF14C1B25B852E900DDAFC7 /* SheetController Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BF14C1225B852E900DDAFC7 /* Example (iOS) */ = {
+		8BF14C1225B852E900DDAFC7 /* SheetController Example (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BF14C2725B852E900DDAFC7 /* Build configuration list for PBXNativeTarget "Example (iOS)" */;
+			buildConfigurationList = 8BF14C2725B852E900DDAFC7 /* Build configuration list for PBXNativeTarget "SheetController Example (iOS)" */;
 			buildPhases = (
 				8BF14C0F25B852E900DDAFC7 /* Sources */,
 				8BF14C1025B852E900DDAFC7 /* Frameworks */,
@@ -123,17 +123,17 @@
 			);
 			dependencies = (
 			);
-			name = "Example (iOS)";
+			name = "SheetController Example (iOS)";
 			packageProductDependencies = (
-				8BF14C3625B853D700DDAFC7 /* SheetController */,
+				8B80466125B855EF00698F28 /* SheetController */,
 			);
 			productName = "Example (iOS)";
-			productReference = 8BF14C1325B852E900DDAFC7 /* Example.app */;
+			productReference = 8BF14C1325B852E900DDAFC7 /* SheetController Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8BF14C1A25B852E900DDAFC7 /* Example (macOS) */ = {
+		8BF14C1A25B852E900DDAFC7 /* SheetController Example (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BF14C2A25B852E900DDAFC7 /* Build configuration list for PBXNativeTarget "Example (macOS)" */;
+			buildConfigurationList = 8BF14C2A25B852E900DDAFC7 /* Build configuration list for PBXNativeTarget "SheetController Example (macOS)" */;
 			buildPhases = (
 				8BF14C1725B852E900DDAFC7 /* Sources */,
 				8BF14C1825B852E900DDAFC7 /* Frameworks */,
@@ -143,12 +143,12 @@
 			);
 			dependencies = (
 			);
-			name = "Example (macOS)";
+			name = "SheetController Example (macOS)";
 			packageProductDependencies = (
-				8BF14C3825B853DB00DDAFC7 /* SheetController */,
+				8B80466325B855F300698F28 /* SheetController */,
 			);
 			productName = "Example (macOS)";
-			productReference = 8BF14C1B25B852E900DDAFC7 /* Example.app */;
+			productReference = 8BF14C1B25B852E900DDAFC7 /* SheetController Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8BF14C0A25B852E800DDAFC7 /* Build configuration list for PBXProject "Example" */;
+			buildConfigurationList = 8BF14C0A25B852E800DDAFC7 /* Build configuration list for PBXProject "SheetController Example" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -181,8 +181,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BF14C1225B852E900DDAFC7 /* Example (iOS) */,
-				8BF14C1A25B852E900DDAFC7 /* Example (macOS) */,
+				8BF14C1225B852E900DDAFC7 /* SheetController Example (iOS) */,
+				8BF14C1A25B852E900DDAFC7 /* SheetController Example (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF14C3F25B854F900DDAFC7 /* ExampleSheet.swift in Sources */,
+				8BF14C3F25B854F900DDAFC7 /* SheetView.swift in Sources */,
 				8BF14C2125B852E900DDAFC7 /* ContentView.swift in Sources */,
 				8BF14C1F25B852E900DDAFC7 /* Application.swift in Sources */,
 			);
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BF14C4025B854FA00DDAFC7 /* ExampleSheet.swift in Sources */,
+				8BF14C4025B854FA00DDAFC7 /* SheetView.swift in Sources */,
 				8BF14C2225B852E900DDAFC7 /* ContentView.swift in Sources */,
 				8BF14C2025B852E900DDAFC7 /* Application.swift in Sources */,
 			);
@@ -346,7 +346,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H48644JM2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -355,7 +357,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.SheetController.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = "SheetController Example";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,7 +370,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H48644JM2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -376,7 +381,8 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.SheetController.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = "SheetController Example";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,6 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
@@ -400,7 +407,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.SheetController.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = "SheetController Example";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -412,6 +419,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
@@ -422,7 +430,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.elegantchaos.SheetController.Example;
-				PRODUCT_NAME = Example;
+				PRODUCT_NAME = "SheetController Example";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -431,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BF14C0A25B852E800DDAFC7 /* Build configuration list for PBXProject "Example" */ = {
+		8BF14C0A25B852E800DDAFC7 /* Build configuration list for PBXProject "SheetController Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BF14C2525B852E900DDAFC7 /* Debug */,
@@ -440,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BF14C2725B852E900DDAFC7 /* Build configuration list for PBXNativeTarget "Example (iOS)" */ = {
+		8BF14C2725B852E900DDAFC7 /* Build configuration list for PBXNativeTarget "SheetController Example (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BF14C2825B852E900DDAFC7 /* Debug */,
@@ -449,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BF14C2A25B852E900DDAFC7 /* Build configuration list for PBXNativeTarget "Example (macOS)" */ = {
+		8BF14C2A25B852E900DDAFC7 /* Build configuration list for PBXNativeTarget "SheetController Example (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8BF14C2B25B852E900DDAFC7 /* Debug */,
@@ -461,11 +469,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		8BF14C3625B853D700DDAFC7 /* SheetController */ = {
+		8B80466125B855EF00698F28 /* SheetController */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SheetController;
 		};
-		8BF14C3825B853DB00DDAFC7 /* SheetController */ = {
+		8B80466325B855F300698F28 /* SheetController */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SheetController;
 		};

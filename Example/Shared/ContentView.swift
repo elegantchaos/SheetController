@@ -10,14 +10,18 @@ struct ContentView: View {
     @EnvironmentObject var sheetController: SheetController
     
     var body: some View {
-        VStack {
-            Button("Show Sheet") {
-                sheetController.show {
-                    ExampleSheet()
+        SheetControllerHost {
+            VStack {
+                Text("Some content here...")
+                
+                Button("Show Sheet") {
+                    sheetController.show {
+                        SheetView()
+                    }
                 }
             }
+            .padding()
         }
-        .usingSheetController()
     }
 }
 

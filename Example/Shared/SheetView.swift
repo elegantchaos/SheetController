@@ -6,7 +6,7 @@
 import SwiftUI
 import SheetController
 
-struct ExampleSheet: View {
+struct SheetView: View {
     @EnvironmentObject var sheetController: SheetController
 
     var body: some View {
