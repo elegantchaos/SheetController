@@ -18,7 +18,7 @@ public struct SheetControllerHost<Content>: View where Content: View {
         content()
             .sheet(isPresented: $sheetController.isPresented, onDismiss: {
                 sheetController.dismiss()
-            }) { sheetController.presented }
+            }) { sheetController.presentedView }
     }
 }
 
