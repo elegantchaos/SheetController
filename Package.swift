@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 //  Created by Sam Deane on 20/01/2021.
@@ -10,7 +10,7 @@ import PackageDescription
 let package = Package(
     name: "SheetController",
     platforms: [
-        .macOS(.v10_13), .iOS(.v13), .tvOS(.v13), .watchOS(.v6)
+        .macOS(.v11), .iOS(.v13), .tvOS(.v13), .watchOS(.v6)
     ],
     products: [
         .library(

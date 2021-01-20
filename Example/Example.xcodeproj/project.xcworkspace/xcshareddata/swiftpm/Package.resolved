@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "XCTestExtensions",
+        "repositoryURL": "https://github.com/elegantchaos/XCTestExtensions.git",
+        "state": {
+          "branch": null,
+          "revision": "8c80db8f01d0a33453bd0b223cb05639f3ead1d7",
+          "version": "1.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
